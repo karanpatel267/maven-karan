@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-10-06T21:24:05Z" name="CAR TestSuite" finished-at="2019-10-06T21:24:06Z" duration-ms="57">
+    <groups>
+      <group name="Audi">
+        <method signature="TestNg_Grouping.AudiA6()[pri:0, instance:test.TestNg_Grouping@5c33f1a9]" name="AudiA6" class="test.TestNg_Grouping"/>
+      </group> <!-- Audi -->
+      <group name="BMW">
+        <method signature="TestNg_Grouping.BMW328i()[pri:0, instance:test.TestNg_Grouping@5c33f1a9]" name="BMW328i" class="test.TestNg_Grouping"/>
+      </group> <!-- BMW -->
+      <group name="Sedan">
+        <method signature="TestNg_Grouping.AudiA6()[pri:0, instance:test.TestNg_Grouping@5c33f1a9]" name="AudiA6" class="test.TestNg_Grouping"/>
+        <method signature="TestNg_Grouping.BMW328i()[pri:0, instance:test.TestNg_Grouping@5c33f1a9]" name="BMW328i" class="test.TestNg_Grouping"/>
+      </group> <!-- Sedan -->
+    </groups>
+    <test started-at="2019-10-06T21:24:05Z" name="Grouping Test" finished-at="2019-10-06T21:24:06Z" duration-ms="57">
+      <class name="test.TestNg_Grouping">
+        <test-method signature="AudiA6()[pri:0, instance:test.TestNg_Grouping@5c33f1a9]" started-at="2019-10-06T21:24:06Z" name="AudiA6" finished-at="2019-10-06T21:24:06Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AudiA6 -->
+        <test-method signature="BMW328i()[pri:0, instance:test.TestNg_Grouping@5c33f1a9]" started-at="2019-10-06T21:24:06Z" name="BMW328i" finished-at="2019-10-06T21:24:06Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BMW328i -->
+      </class> <!-- test.TestNg_Grouping -->
+    </test> <!-- Grouping Test -->
+  </suite> <!-- CAR TestSuite -->
+</testng-results>
